@@ -169,6 +169,6 @@ resource "aws_internet_gateway" "igw" {
    subnet_id     = aws_subnet.pub-subnet.id
   
    tags = {
-     Name = "natgw"
+     Name = "premnt-gt"
    }
  }
